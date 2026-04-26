@@ -1,0 +1,44 @@
+site_name: OpenSource Component Guidelines
+site_description: 开源组件使用规范、License 说明与合规实践文档
+site_url: https://<your-github-username>.github.io/opensource-component-guidelines/
+repo_name: opensource-component-guidelines
+repo_url: https://github.com/<your-github-username>/opensource-component-guidelines
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - 首页: index.md
+  - 使用规范:
+      - 开源组件使用规范: component-usage-guidelines.md
+      - 开源组件引入检查清单: component-intake-checklist.md
+      - 依赖引入申请模板: component-intake-request-template.md
+      - 发布前合规检查清单: release-compliance-checklist.md
+      - 组件台账模板: component-inventory-template.md
+  - License:
+      - 常见 License 介绍: common-licenses.md
+      - 常见 License 对比表: license-comparison-matrix.md
+      - License 权限与义务: license-rights-and-obligations.md
+  - 合规实践:
+      - 开源合规流程: compliance-process.md
+      - 典型场景案例: typical-scenarios.md
+      - 第三方声明模板: third-party-notices-template.md
