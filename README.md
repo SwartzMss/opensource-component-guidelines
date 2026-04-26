@@ -1,6 +1,6 @@
 # OpenSource Component Guidelines
 
-这是一个基于 `MkDocs Material` 的开源组件治理文档仓库，用于沉淀团队在使用开源组件时需要遵循的规范、License 知识和合规实践。
+一个基于 `MkDocs Material` 的开源组件治理与 License 合规文档仓库。
 
 ## 内容方向
 
@@ -23,14 +23,12 @@
 
 如果仓库的 GitHub Pages 已设置为从 `gh-pages` 分支发布，就不需要在本地手动生成最终文档。
 
-## 使用说明
+## 使用方式
 
 你只需要维护 `docs/` 下的文档内容，并在 GitHub 上提交到 `main` 分支。
 
 每次提交后，GitHub Actions 会自动完成文档构建与 Pages 发布。
 
-在正式使用前，请先把 `mkdocs.yml` 中的 `site_url` 和 `repo_url` 替换成你的真实 GitHub 仓库地址。
-
 ## 文档入口
 
-文档首页位于 [docs/index.md](docs/index.md)，站点导航由 `mkdocs.yml` 统一管理。
+文档首页位于 `docs/index.md`，站点导航由 `mkdocs.yml` 统一管理。

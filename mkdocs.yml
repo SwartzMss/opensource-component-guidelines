@@ -1,12 +1,15 @@
 site_name: OpenSource Component Guidelines
 site_description: 开源组件使用规范、License 说明与合规实践文档
-site_url: https://<your-github-username>.github.io/opensource-component-guidelines/
+site_url: https://swartzmss.github.io/opensource-component-guidelines/
 repo_name: opensource-component-guidelines
-repo_url: https://github.com/<your-github-username>/opensource-component-guidelines
+repo_url: https://github.com/swartzmss/opensource-component-guidelines
+site_author: swartzmss
 
 theme:
   name: material
   language: zh
+  icon:
+    repo: fontawesome/brands/github
   features:
     - navigation.tabs
     - navigation.sections
@@ -14,6 +17,10 @@ theme:
     - content.code.copy
     - search.suggest
     - search.highlight
+  palette:
+    - scheme: default
+      primary: blue grey
+      accent: teal
 
 markdown_extensions:
   - admonition
